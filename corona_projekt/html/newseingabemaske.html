@@ -21,7 +21,7 @@
       <br>
       <p><h1> Maske </h1></p>
 
-      <form>
+      <form action="../php/insertnews.php" method="POST">
         <fieldset>
           <label for="uploader"> Uploader:</label>
           <input type="text" id="uploader" name="uploader"><br>
@@ -34,7 +34,7 @@
 
           <label for="Kategorie"> Kategorie:</label>
           <select name="Kategorie">
-    			  <option value="Kategorie">Rubrik:</option>
+    			  <option selected hidden Value "Rubrik"> Rubrik </option>
     			  <option value="Lockdown">Lockdown</option>
     			  <option value="Impfung">Impfung</option>
     			  <option value="Pannen">Pannen</option>
