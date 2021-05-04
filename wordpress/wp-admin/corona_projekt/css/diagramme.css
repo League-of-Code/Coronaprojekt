@@ -1,0 +1,35 @@
+.germany{
+    width: 30%;
+    margin-left: 35vw;
+    margin-top: 2vh;
+    transition: all 1000ms ease;
+	float: left;
+}
+
+.germany path{
+    fill: rgb(95, 95, 95);
+    stroke: white;
+    stroke-width: 2px;
+    transition: fill 0.5s;
+}
+
+.germany :hover{
+    fill: brown;
+}
+
+@media screen and (max-width: 1080px){
+    .germany{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+#chartContainer{
+	height: 50vh; 
+	width: 50vw;
+	transition: all 1000ms ease;
+	float: left;
+	position: absolute;
+	left: 100vw;
+	top: 25vh;
+}
